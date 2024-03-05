@@ -1,7 +1,6 @@
-window.addEventListener("DOMContentLoaded",
-                        if (window.location.hash){
+window.addEventListener("DOMContentLoaded", 
 function countdown() {
-document.getElementById('time').style.display = 'none';
+  if (window.location.hash){
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 5; // change to required time
@@ -17,9 +16,10 @@ document.getElementById('Tcount').style.display = 'none';
 }
 }
 countdown();
-}}
-else {
-    document.getElementById('time').style.display = 'none';  
+  }
+  else {
+    document.getElementById('time').style.display = 'none';
+  }
 });
 
 
