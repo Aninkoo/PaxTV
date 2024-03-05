@@ -1,4 +1,5 @@
-window.addEventListener("DOMContentLoaded", 
+window.addEventListener("DOMContentLoaded",
+                        if (window.location.hash){
 function countdown() {
 document.getElementById('time').style.display = 'none';
 function countdown() {
@@ -16,6 +17,9 @@ document.getElementById('Tcount').style.display = 'none';
 }
 }
 countdown();
+}}
+else {
+    document.getElementById('time').style.display = 'none';  
 });
 
 
