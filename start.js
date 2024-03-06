@@ -26,7 +26,7 @@ function myStart() {
   if (window.location.hash){
     var start = window.location.hash.substr(1);
 sessionStorage.setItem("Blink", start);
-    var next = ""
+    var next = './jan_2024/clickbait_ltns_long_time_no_sex.html'
   window.open(next,'_self');
 };
 }
