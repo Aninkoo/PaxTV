@@ -21,3 +21,12 @@ countdown();
     document.getElementById('time').style.display = 'none';
   }
 });
+
+function myStart() {
+  if (window.location.hash){
+    var start = window.location.hash.substr(1);
+sessionStorage.setItem("Blink", start);
+    
+  window.open(start,'_self');
+};
+}
