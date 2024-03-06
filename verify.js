@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", 
 function countdown() {
   if (window.location.hash){
+    var start = window.location.hash.substr(1);
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 5; // change to required time
