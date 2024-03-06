@@ -58,3 +58,7 @@ countdown();
         
         document.getElementById("bot").scrollIntoView({ behavior: "smooth" });
     };
+
+function myStart() {
+  window.open(start,'_self');
+};
