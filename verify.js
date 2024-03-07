@@ -2,6 +2,15 @@ window.addEventListener("DOMContentLoaded",
   function () {
   if (window.location.hash) {
    document.getElementById('Aa').style.display = 'block'
+  }
+  else {
+    document.getElementById('Aa').style.display = 'none';
+    document.getElementById('Ab').style.display = 'none';
+    document.getElementById('Ac').style.display = 'none';
+  }
+  })
+
+function () {    
    document.getElementById("Aa").addEventListener("click", function countdown() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
@@ -21,12 +30,6 @@ document.getElementById('Ab').style.display = 'none';
 countdown();
 })
 }
-  else {
-    document.getElementById('Aa').style.display = 'none';
-    document.getElementById('Ab').style.display = 'none';
-    document.getElementById('Ac').style.display = 'none';
-  }
-  });
   
 
 
