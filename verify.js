@@ -22,7 +22,13 @@ document.getElementById('Ab').style.display = 'none';
 }
 countdown();
 })
-}});
+}
+  else {
+    document.getElementById('Aa').style.display = 'none';
+    document.getElementById('Ab').style.display = 'none';
+    document.getElementById('Ac').style.display = 'none';
+  }
+  });
   
 
 
