@@ -1,26 +1,28 @@
 window.addEventListener("DOMContentLoaded", 
-function countdown() {
-  if (window.location.hash){
+  function begin() {
+    document.getElementById('Aa').style.display = 'block';
+document.getElementById('Ab').style.display = 'none';
+document.getElementById('Ac').style.display = 'none';
+document.getElementById("Aa").addEventListener("click", function countdown() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 5; // change to required time
 }
 if(countdown.counter >= 0) {
-document.getElementById('time').style.display = 'block';
+document.getElementById('Ab').style.display = 'block';
+document.getElementById('Aa').style.display = 'none';
 document.getElementById('count').innerHTML = countdown.counter--;
 setTimeout(countdown, 1000);
 }
 else {
-document.getElementById('button').style.display = 'block';
-document.getElementById('Tcount').style.display = 'none';
+document.getElementById('Ac').style.display = 'block';
+document.getElementById('Ab').style.display = 'none';
 }
 }
 countdown();
-  }
-  else {
-    document.getElementById('time').style.display = 'none';
-  }
+})
 });
+  
 
 
 function myFunction() { 
@@ -48,6 +50,7 @@ setTimeout(countdown, 1000);
 else {
 document.getElementById('span2').style.display = 'block';
 document.getElementById('span1').style.display = 'none';
+document.getElementById('Ac').style.display = 'none';
 }
 }
 countdown();
@@ -63,4 +66,5 @@ function myStart() {
     var start = window.location.hash.substr(1);
   window.open(start,'_self');
 };
-      }
+  }
+  
