@@ -30,8 +30,7 @@ function myStart() {
         './jan_2024/clickbait_ltns_long_time_no_sex.html'
     ];
         var site = sites[Math.floor(Math.random()*sites.length)];
-        var next = site;
-    
+        var next = site;    
     var start = window.location.hash
     let link = next+start
   window.open(link,'_self');
