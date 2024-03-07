@@ -1,6 +1,10 @@
 window.addEventListener("DOMContentLoaded", 
   function begin() {
-    document.getElementById('Aa').style.display = 'block';
+    if(sessionStorage.getItem("Blink" = null) {
+      document.getElementById('Aa').style.display = 'none';
+    }
+    else {
+document.getElementById('Aa').style.display = 'block';
 document.getElementById('Ab').style.display = 'none';
 document.getElementById('Ac').style.display = 'none';
 document.getElementById("Aa").addEventListener("click", function countdown() { 
@@ -21,7 +25,7 @@ document.getElementById('Ab').style.display = 'none';
 }
 countdown();
 })
-});
+}});
   
 
 
