@@ -25,13 +25,12 @@ countdown();
 function myStart() {
   if (window.location.hash){
 
-var sites = [
+    function randomSite() {
+      var sites = [
         './most_anticipated_new_returning_k-drama_2024_2.html',
         './most_anticipated_new_returning_k-drama_2024.html',
         './clickbait_ltns_long_time_no_sex.html'
     ];
-
-    function randomSite() {
         var i = parseInt(Math.random() * sites.length);
         var next = sites[i];
     
