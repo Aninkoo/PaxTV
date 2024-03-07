@@ -1,8 +1,8 @@
 window.addEventListener("DOMContentLoaded", 
   function () {
   if (window.location.hash) {
-   
-document.getElementById("Aa").addEventListener("click", function countdown() { 
+   document.getElementById('Aa').style.display = 'block'
+   document.getElementById("Aa").addEventListener("click", function countdown() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 5; // change to required time
