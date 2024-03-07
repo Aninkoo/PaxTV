@@ -24,8 +24,8 @@ countdown();
 
 function myStart() {
   if (window.location.hash){
-    var start = window.location.hash.substr(1);
-    var next = './jan_2024/clickbait_ltns_long_time_no_sex.html'
+    var start = window.location.hash;
+    var next = './jan_2024/clickbait_ltns_long_time_no_sex.html+start'
   window.open(next,'_self');
 };
 }
