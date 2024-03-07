@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", 
-  function begin() {
-    document.getElementById('Aa').style.display = 'block';
+  function () {
+  if (window.location.hash) {
+   document.getElementById('Aa').style.display = 'block';
 document.getElementById('Ab').style.display = 'none';
 document.getElementById('Ac').style.display = 'none';
 document.getElementById("Aa").addEventListener("click", function countdown() { 
@@ -21,7 +22,7 @@ document.getElementById('Ab').style.display = 'none';
 }
 countdown();
 })
-});
+}});
   
 
 
@@ -66,4 +67,4 @@ function myStart() {
     var start = window.location.hash.substr(1);
   window.open(start,'_self');
 };
-}
+  }
