@@ -3,7 +3,7 @@ function countdown() {
   if (window.location.hash){
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
-countdown.counter = 5; // change to required time
+countdown.counter = 10; // change to required time
 }
 if(countdown.counter >= 0) {
 document.getElementById('time').style.display = 'block';
