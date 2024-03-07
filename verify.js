@@ -1,8 +1,7 @@
 window.addEventListener("DOMContentLoaded", 
   function begin() {
-    var start = sessionStorage.getItem("Blink");
-    console.log(Blink);
-    if(start = null) {
+    
+    if(sessionStorage.length = 0) {
       document.getElementById('Aa').style.display = 'none';
       document.getElementById('Ab').style.display = 'none';
       document.getElementById('Ac').style.display = 'none';
@@ -66,8 +65,10 @@ countdown();
     };
 
 function myStart() {
-  
+  var start = sessionStorage.getItem("Blink");
+    console.log(Blink);
   window.open(start,'_self');
 };
   
 
+  
