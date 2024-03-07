@@ -12,9 +12,7 @@ window.addEventListener("DOMContentLoaded",
   }
   });
 
- function another() { 
-document.getElementById("Aa").addEventListener("click", 
-function countdown() { 
+function another() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 5; // change to required time
@@ -31,7 +29,6 @@ document.getElementById('Ab').style.display = 'none';
 }
 }
 countdown();
-})
 }
 
 
