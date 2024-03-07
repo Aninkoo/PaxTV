@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded",
 function another() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
-countdown.counter = 5; // change to required time
+countdown.counter = 9; // change to required time
 }
 if(countdown.counter >= 0) {
 document.getElementById('Ab').style.display = 'block';
@@ -35,12 +35,12 @@ countdown();
 function myFunction() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
-countdown.counter = 4; // change to required time
+countdown.counter = 5; // change to required time
 }
 if(countdown.counter >= 0) {
 document.getElementById('span1').style.display = 'block';
 
-const words = ['Initiating ...', 'Verifying ...', 'Verifying ...', 'Confirming ...'];
+const words = ['Initiating ...', 'Verifying ...', 'Verifying ...', 'Confirming ...', 'Confirming ...'];
 
       i = 0;
       const counter = setInterval(foo, 1000);
@@ -48,7 +48,7 @@ const words = ['Initiating ...', 'Verifying ...', 'Verifying ...', 'Confirming .
       function foo() {
         document.getElementById('interval').innerHTML = words[i];
         i++;
-        if (i >= 4) clearInterval(counter);
+        if (i >= 5) clearInterval(counter);
       }
 
 countdown.counter--;
