@@ -26,8 +26,7 @@ function myStart() {
   if (window.location.hash){
     var start = window.location.hash
     var next = './jan_2024/clickbait_ltns_long_time_no_sex.html'
-    var new = next+start
-  window.open(new,'_self');
-    console.clear();
+    let link = next+start
+  window.open(link,'_self');
 };
 }
