@@ -27,7 +27,6 @@ function myStart() {
     var start = window.location.hash;
     var next = './jan_2024/clickbait_ltns_long_time_no_sex.html';
     let new = next+start;
-    console.log(new);
   window.open(new,'_self');
 };
 }
