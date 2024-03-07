@@ -25,9 +25,9 @@ countdown();
 function myStart() {
   if (window.location.hash){
       var sites = [
-        './2024/most_anticipated_new_returning_k-drama_2024_2.html',
-        './2024/most_anticipated_new_returning_k-drama_2024.html',
-        './2024/clickbait_ltns_long_time_no_sex.html'
+        './jan_2024/most_anticipated_new_returning_k-drama_2024_2.html',
+        './jan_2024/most_anticipated_new_returning_k-drama_2024.html',
+        './jan_2024/clickbait_ltns_long_time_no_sex.html'
     ];
         var site = sites[Math.floor(Math.random()*sites.length)];
         var next = site;
