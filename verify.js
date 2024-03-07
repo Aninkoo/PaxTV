@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", 
   function begin() {
-    if(sessionStorage.getItem("Blink" = null) {
+    if(sessionStorage.getItem(Blink = null)) {
       document.getElementById('Aa').style.display = 'none';
     }
     else {
@@ -58,17 +58,13 @@ document.getElementById('Ac').style.display = 'none';
 }
 }
 countdown();
-
-
-
-        
-        document.getElementById("bot").scrollIntoView({ behavior: "smooth" });
+  document.getElementById("bot").scrollIntoView({ behavior: "smooth" });
     };
 
 function myStart() {
-  if (window.location.hash){
-    var start = window.location.hash.substr(1);
+  var start = sessionStorage.getItem("Blink");
+console.log(Blink);
   window.open(start,'_self');
 };
-  }
   
+
