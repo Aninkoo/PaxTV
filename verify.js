@@ -2,6 +2,8 @@ window.addEventListener("DOMContentLoaded",
   function () {
   if (window.location.hash) {
    document.getElementById('Aa').style.display = 'block'
+   document.getElementById('Ab').style.display = 'none';
+   document.getElementById('Ac').style.display = 'none';
   }
   else {
     document.getElementById('Aa').style.display = 'none';
@@ -10,8 +12,9 @@ window.addEventListener("DOMContentLoaded",
   }
   })
 
-function ano() {    
-   document.getElementById("Aa").addEventListener("click", function countdown() { 
+    
+   document.getElementById("Aa").addEventListener("click", 
+function countdown() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 5; // change to required time
@@ -29,7 +32,6 @@ document.getElementById('Ab').style.display = 'none';
 }
 countdown();
 })
-}
   
 
 
