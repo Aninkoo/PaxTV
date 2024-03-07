@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded",
       document.getElementById('Ac').style.display = 'none';
     }
     else {
-document.getElementById('Aa').style.display = 'block';
+document.getElementById('Aa').style.display = 'none';
 document.getElementById('Ab').style.display = 'none';
 document.getElementById('Ac').style.display = 'none';
     }
