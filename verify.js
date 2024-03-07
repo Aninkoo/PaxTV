@@ -10,10 +10,10 @@ window.addEventListener("DOMContentLoaded",
     document.getElementById('Ab').style.display = 'none';
     document.getElementById('Ac').style.display = 'none';
   }
-  })
+  });
 
-    
-   document.getElementById("Aa").addEventListener("click", 
+ function another() { 
+document.getElementById("Aa").addEventListener("click", 
 function countdown() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
@@ -32,7 +32,7 @@ document.getElementById('Ab').style.display = 'none';
 }
 countdown();
 })
-  
+}
 
 
 function myFunction() { 
@@ -77,3 +77,4 @@ function myStart() {
   window.open(start,'_self');
 };
   }
+  
