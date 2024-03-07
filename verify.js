@@ -10,6 +10,10 @@ window.addEventListener("DOMContentLoaded",
 document.getElementById('Aa').style.display = 'block';
 document.getElementById('Ab').style.display = 'none';
 document.getElementById('Ac').style.display = 'none';
+    }
+  })
+
+function myFunction() {
 document.getElementById("Aa").addEventListener("click", function countdown() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
@@ -28,7 +32,7 @@ document.getElementById('Ab').style.display = 'none';
 }
 countdown();
 })
-}});
+}
   
 
 
