@@ -1,19 +1,8 @@
 window.addEventListener("DOMContentLoaded", 
   function begin() {
-    
-    if(sessionStorage.length = 0) {
-      document.getElementById('Aa').style.display = 'none';
-      document.getElementById('Ab').style.display = 'none';
-      document.getElementById('Ac').style.display = 'none';
-    }
-    else {
-document.getElementById('Aa').style.display = 'none';
+    document.getElementById('Aa').style.display = 'block';
 document.getElementById('Ab').style.display = 'none';
 document.getElementById('Ac').style.display = 'none';
-    }
-  })
-
-function myFunction() {
 document.getElementById("Aa").addEventListener("click", function countdown() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
@@ -32,7 +21,7 @@ document.getElementById('Ab').style.display = 'none';
 }
 countdown();
 })
-}
+});
   
 
 
@@ -65,14 +54,16 @@ document.getElementById('Ac').style.display = 'none';
 }
 }
 countdown();
-  document.getElementById("bot").scrollIntoView({ behavior: "smooth" });
+
+
+
+        
+        document.getElementById("bot").scrollIntoView({ behavior: "smooth" });
     };
 
 function myStart() {
-  var start = sessionStorage.getItem("Blink");
-    console.log(Blink);
+  if (window.location.hash){
+    var start = window.location.hash.substr(1);
   window.open(start,'_self');
 };
-  
-
-  
+}
