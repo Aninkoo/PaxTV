@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded",
   }
   })
 
-function () {    
+function ano() {    
    document.getElementById("Aa").addEventListener("click", function countdown() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
