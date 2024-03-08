@@ -14,6 +14,7 @@ window.addEventListener("DOMContentLoaded",
 
 function another() { 
 function countdown() {
+  Telegram.WebApp.expand();
 if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 9; // change to required time
 }
@@ -72,6 +73,7 @@ function myStart() {
   if (window.location.hash){
     var start = window.location.hash.substr(1);
   window.open(start,'_self');
+  Telegram.WebApp.close();
 };
   }
   
