@@ -4,6 +4,7 @@ window.addEventListener("DOMContentLoaded",
    document.getElementById('Aa').style.display = 'block'
    document.getElementById('Ab').style.display = 'none';
    document.getElementById('Ac').style.display = 'none';
+   Telegram.WebApp.expand();
   }
   else {
     document.getElementById('Aa').style.display = 'none';
@@ -14,7 +15,6 @@ window.addEventListener("DOMContentLoaded",
 
 function another() { 
 function countdown() {
-  Telegram.WebApp.expand();
 if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 9; // change to required time
 }
