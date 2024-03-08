@@ -72,6 +72,16 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--fuchsia: #ff00ff;-
 </center>
 
 <!-- try sroll -->
+
+<script>
+	window.addEventListener("DOMContentLoaded", 
+	function scrollToTop() {
+  document.body.scrollTop = 0;
+  setTimeout(() => {
+    window.scroll({top: 300, behavior: "instant"});
+  }, 50);
+	})
+</script>
 <script src="start.js"></script>
 <center>
   <T1 id="time" style="display: none;">
