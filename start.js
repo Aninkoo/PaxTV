@@ -13,7 +13,6 @@ setTimeout(countdown, 1000);
 else {
 document.getElementById('button').style.display = 'block';
 document.getElementById('Tcount').style.display = 'none';
-  Telegram.WebApp.expand();
 }
 }
 countdown();
