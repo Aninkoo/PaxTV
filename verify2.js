@@ -65,20 +65,26 @@ countdown();
        document.getElementById("bot").scrollIntoView({ behavior: "smooth" });
     };
 
-
 function myFun() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 5; // change to required time
 }
 if(countdown.counter >= 0) {
+document.getElementById('span2').innerHTML = '👇 Waiting... 👇';
+      
+
+countdown.counter--;
+setTimeout(countdown, 1000);
+}
+else {
 function myStart() {
   if (window.location.hash){
     var start = window.location.hash.substr(1);
   window.open(start,'_self');
   Telegram.WebApp.close();
-};
-  };
-  countdown.counter--;
-setTimeout(countdown, 1000);
-}}}
+};}
+}
+}
+countdown();
+    };
