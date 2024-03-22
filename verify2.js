@@ -65,10 +65,11 @@ countdown();
        document.getElementById("bot").scrollIntoView({ behavior: "smooth" });
     };
 
-function myStart() {
+window.addEventListener('open',
+function () {
   if (window.location.hash){
     var start = window.location.hash.substr(1);
   window.open(start,'_self');
 };
-  }
+  })
 
