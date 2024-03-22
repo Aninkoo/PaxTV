@@ -56,7 +56,7 @@ countdown.counter--;
 setTimeout(countdown, 1000);
 }
 else {
-document.getElementById('span2').innerHTML = '👇 Click here and wait 👇';
+document.getElementById('span2').innerHTML = '👉 Click here 👈';
 document.getElementById('span1').style.display = 'none';
 document.getElementById('Ac').style.display = 'none';
 }
@@ -71,7 +71,7 @@ if ( typeof countdown.counter == 'undefined' ) {
 countdown.counter = 5; // change to required time
 }
 if(countdown.counter >= 0) {
-document.getElementById('span2').innerHTML = '👇 Waiting... 👇';
+document.getElementById('span2').innerHTML = '👇 Click this and wait 👇';
       
 
 countdown.counter--;
