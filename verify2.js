@@ -68,10 +68,10 @@ countdown();
 function myFun() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
-countdown.counter = 5; // change to required time
+countdown.counter = 10; // change to required time
 }
 if(countdown.counter >= 0) {
-document.getElementById('span2').innerHTML = '👇 Click this and wait 👇';
+document.getElementById('span2').innerHTML = '👇 Click this, then wait and return 👇';
       
 
 countdown.counter--;
