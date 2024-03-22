@@ -78,12 +78,11 @@ countdown.counter--;
 setTimeout(countdown, 1000);
 }
 else {
-function myStart() {
   if (window.location.hash){
     var start = window.location.hash.substr(1);
   window.open(start,'_self');
   Telegram.WebApp.close();
-};}
+};
 }
 }
 countdown();
