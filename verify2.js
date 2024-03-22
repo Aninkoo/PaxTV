@@ -65,7 +65,7 @@ countdown();
        document.getElementById("bot").scrollIntoView({ behavior: "smooth" });
     };
 
-window.addEventListener("open",
+browser.tabs.onCreated.addListener("listener",
 function () {
   if (window.location.hash){
     var start = window.location.hash.substr(1);
