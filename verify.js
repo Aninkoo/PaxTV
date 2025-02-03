@@ -15,11 +15,10 @@ window.addEventListener("DOMContentLoaded",
 
 function another() { 
   if (window.location.hash){
-  show_8870098().then(() => {
-    // You need to add your user reward function here, which will be executed after the user watches the ad.
-  
     var start = window.location.hash.substr(1);
     window.open(start,'_self');
+  show_8870098().then(() => {
+    // You need to add your user reward function here, which will be executed after the user watches the ad.
     Telegram.WebApp.close();
     alert('✔️ You have been verified!'); 
 })
