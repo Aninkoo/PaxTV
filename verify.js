@@ -18,8 +18,8 @@ function another() {
     var start = window.location.hash.substr(1);
   show_8870098().then(() => {
     // You need to add your user reward function here, which will be executed after the user watches the ad.
-    countdown.counter = 3;
-    if(countdown.counter <= 0) {
+    counter = 3;
+    if(counter <= 0) {
     window.open(start,'_self');
     alert('✔️ You have been verified!');
     Telegram.WebApp.close();}
