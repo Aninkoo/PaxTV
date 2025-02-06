@@ -14,18 +14,32 @@ window.addEventListener("DOMContentLoaded",
   });
 
 function another() { 
-  if (window.location.hash){
-    var start = window.location.hash.substr(1);
+  
   show_8870098().then(() => {
     // You need to add your user reward function here, which will be executed after the user watches the ad.
-    
-  window.open(start,'_self');
-  alert('✔️ You have been verified!');
-  Telegram.WebApp.close();
+  myFun();  
+  
 
 });
     
 }
+
+
+
+function myFun() { 
+function countdown(myFun) {
+if ( typeof countdown.counter == 'undefined' ) {
+countdown.counter = 3; // change to required time
 }
-
-
+if(countdown.counter <= 0) {
+function myStart() {
+  if (window.location.hash){
+    var start = window.location.hash.substr(1);
+  window.open(start,'_self');
+  alert('✔️ You have been verified!');
+  Telegram.WebApp.close();
+};
+  };
+  countdown.counter--;
+setTimeout(countdown, 1000);
+}}}
