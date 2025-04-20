@@ -27,7 +27,7 @@ function another() {
 function nextt() { 
 function countdown() {
 if ( typeof countdown.counter == 'undefined' ) {
-countdown.counter = 3; // change to required time
+countdown.counter = 5; // change to required time
 }
 if(countdown.counter >= 0) {
 document.getElementById('Ab').style.display = 'block';
