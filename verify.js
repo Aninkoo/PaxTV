@@ -15,7 +15,7 @@ window.addEventListener("DOMContentLoaded",
 
 function another() { 
   
-  show_8870098().then(() => {
+  show_8870096().then(() => {
     // You need to add your user reward function here, which will be executed after the user watches the ad.
   nextt();  
   
